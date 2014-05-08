@@ -16,14 +16,14 @@ public class Main {
 		JPanel panel= new JPanel();
 		JButton btn1=new JButton("Construye tu red de ordenamiento");
 		JLabel label2= new JLabel("                               ");//esta etiqueta en blanco se le pasa al panel  
-		//JButton btn2=new JButton();								// WEST para q no funcione como un boton
+		//JButton btn2=new JButton();				// WEST para q no funcione como un boton
 		JButton btn3=new JButton();
 		JButton btn4=new JButton();
 		//JButton btn5=new JButton();
 		BorderLayout bl= new BorderLayout();
 		panel.setLayout(bl);
 		panel.add(btn1, BorderLayout.NORTH);
-		btn4.setBounds(30,100,30,30); 	// este metodo ubica el btn4 en la posision x=30 y=100 de tamaño 30x30
+		btn4.setBounds(30,100,30,30); 	// este metodo ubica el btn4 en la posision x=30 y=100 de tamaï¿½o 30x30
 		btn4.setBackground(Color.pink);
 		//panel.add(btn2, BorderLayout.SOUTH);
 		panel.add(btn3, BorderLayout.CENTER);
